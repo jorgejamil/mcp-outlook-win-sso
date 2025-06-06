@@ -1,0 +1,32 @@
+{
+  "name": "outlook-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server para integração com Outlook/Office365",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "outlook-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.0.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "express": "^4.18.2",
+    "open": "^10.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "outlook",
+    "office365",
+    "microsoft-graph"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
